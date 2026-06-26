@@ -1,1 +1,198 @@
-aW1wb3J0IHRhaWNoaSBhcyB0aQoKdGkuaW5pdChhcmNoPXRpLmNwdSkKCnJlc194LCByZXNfeSA9IDQwMCwgMzAwCnBpeGVscyA9IHRpLlZlY3Rvci5maWVsZCgzLCBkdHlwZT10aS5mMzIsIHNoYXBlPShyZXNfeCwgcmVzX3kpKQoKbGlnaHRfcG9zX3ggPSB0aS5maWVsZCh0aS5mMzIsIHNoYXBlPSgpKQpsaWdodF9wb3NfeSA9IHRpLmZpZWxkKHRpLmYzMiwgc2hhcGU9KCkpCmxpZ2h0X3Bvc196ID0gdGkuZmllbGQodGkuZjMyLCBzaGFwZT0oKSkKbWF4X2JvdW5jZXMgPSB0aS5maWVsZCh0aS5pMzIsIHNoYXBlPSgpKQoKTUFUX0RJRkZVU0UgPSAwCk1BVF9NSVJST1IgPSAxCk1BVF9HTEFTUyA9IDIKCkVUQV9BSVIgPSAxLjAKRVRBX0dMQVNTID0gMS41CgpAdGkuZnVuYwpkZWYgbm9ybWFsaXplKHYpOgogICAgcmV0dXJuIHYgLyB2Lm5vcm0oMWUtNSkKCkB0aS5mdW5jCmRlZiByZWZsZWN0KEksIE4pOgogICAgcmV0dXJuIEkgLSAyLjAgKiBJLmRvdChOKSAqIE4KCkB0aS5mdW5jCmRlZiByZWZyYWN0KEksIE4sIGV0YSk6CiAgICBjb3NfaSA9IC1OLmRvdChJKQogICAgc2luMl90ID0gZXRhICogZXRhICogKDEuMCAtIGNvc19pICogY29zX2kpCiAgICBpc19USVIgPSBzaW4yX3QgPiAxLjAKICAgIFQgPSB0aS5WZWN0b3IoWzAuMCwgMC4wLCAwLjBdKQogICAgaWYgbm90IGlzX1RJUjoKICAgICAgICBjb3NfdCA9IHRpLnNxcnQoMS4wIC0gc2luMl90KQogICAgICAgIFQgPSBldGEgKiBJICsgKGV0YSAqIGNvc19pIC0gY29zX3QpICogTgogICAgcmV0dXJuIFQsIGlzX1RJUgoKQHRpLmZ1bmMKZGVmIGludGVyc2VjdF9zcGhlcmUocm8sIHJkLCBjZW50ZXIsIHJhZGl1cyk6CiAgICB0ID0gLTEuMAogICAgbm9ybWFsID0gdGkuVmVjdG9yKFswLjAsIDAuMCwgMC4wXSkKICAgIG9jID0gcm8gLSBjZW50ZXIKICAgIGIgPSAyLjAgKiBvYy5kb3QocmQpCiAgICBjID0gb2MuZG90KG9jKSAtIHJhZGl1cyAqIHJhZGl1cwogICAgZGVsdGEgPSBiICogYiAtIDQuMCAqIGMKICAgIGlmIGRlbHRhID4gMDoKICAgICAgICB0MSA9ICgtYiAtIHRpLnNxcnQoZGVsdGEpKSAvIDIuMAogICAgICAgIGlmIHQxID4gMDoKICAgICAgICAgICAgdCA9IHQxCiAgICAgICAgICAgIHAgPSBybyArIHJkICogdAogICAgICAgICAgICBub3JtYWwgPSBub3JtYWxpemUocCAtIGNlbnRlcikKICAgIHJldHVybiB0LCBub3JtYWwKCkB0aS5mdW5jCmRlZiBpbnRlcnNlY3RfcGxhbmUocm8sIHJkLCBwbGFuZV95KToKICAgIHQgPSAtMS4wCiAgICBub3JtYWwgPSB0aS5WZWN0b3IoWzAuMCwgMS4wLCAwLjBdKQogICAgaWYgdGkuYWJzKHJkLnkpID4gMWUtNToKICAgICAgICB0MSA9IChwbGFuZV95IC0gcm8ueSkgLyByZC55CiAgICAgICAgaWYgdDEgPiAwOgogICAgICAgICAgICB0ID0gdDEKICAgIHJldHVybiB0LCBub3JtYWwKCkB0aS5mdW5jCmRlZiBzY2VuZV9pbnRlcnNlY3Qocm8sIHJkKToKICAgIG1pbl90ID0gMWUxMAogICAgaGl0X24gPSB0aS5WZWN0b3IoWzAuMCwgMC4wLCAwLjBdKQogICAgaGl0X2MgPSB0aS5WZWN0b3IoWzAuMCwgMC4wLCAwLjBdKQogICAgaGl0X21hdCA9IE1BVF9ESUZGVVNFCgogICAgdCwgbiA9IGludGVyc2VjdF9zcGhlcmUocm8sIHJkLCB0aS5WZWN0b3IoWy0xLjUsIDAuMCwgMC4wXSksIDEuMCkKICAgIGlmIDAgPCB0IDwgbWluX3Q6CiAgICAgICAgbWluX3QgPSB0CiAgICAgICAgaGl0X24gPSBuCiAgICAgICAgaGl0X2MgPSB0aS5WZWN0b3IoWzAuOCwgMC4xLCAwLjFdKQogICAgICAgIGhpdF9tYXQgPSBNQVRfR0xBU1MKCiAgICB0LCBuID0gaW50ZXJzZWN0X3NwaGVyZShybywgcmQsIHRpLlZlY3RvcihbMS41LCAwLjAsIDAuMF0pLCAxLjApCiAgICBpZiAwIDwgdCA8IG1pbl90OgogICAgICAgIG1pbl90ID0gdAogICAgICAgIGhpdF9uID0gbgogICAgICAgIGhpdF9jID0gdGkuVmVjdG9yKFswLjksIDAuOSwgMC45XSkKICAgICAgICBoaXRfbWF0ID0gTUFUX01JUlJPUgoKICAgIHQsIG4gPSBpbnRlcnNlY3RfcGxhbmUocm8sIHJkLCAtMS4wKQogICAgaWYgMCA8IHQgPCBtaW5fdDoKICAgICAgICBtaW5fdCA9IHQKICAgICAgICBoaXRfbiA9IG4KICAgICAgICBoaXRfbWF0ID0gTUFUX0RJRkZVU0UKICAgICAgICBwID0gcm8gKyByZCAqIHQKICAgICAgICBncmlkX3NjYWxlID0gMi4wCiAgICAgICAgaXggPSB0aS5mbG9vcihwLnggKiBncmlkX3NjYWxlKQogICAgICAgIGl6ID0gdGkuZmxvb3IocC56ICogZ3JpZF9zY2FsZSkKICAgICAgICBpZiAoaXggKyBpeikgJSAyID09IDA6CiAgICAgICAgICAgIGhpdF9jID0gdGkuVmVjdG9yKFswLjMsIDAuMywgMC4zXSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBoaXRfYyA9IHRpLlZlY3RvcihbMC44LCAwLjgsIDAuOF0pCgogICAgcmV0dXJuIG1pbl90LCBoaXRfbiwgaGl0X2MsIGhpdF9tYXQKCkB0aS5rZXJuZWwKZGVmIHJlbmRlcigpOgogICAgbGlnaHRfcG9zID0gdGkuVmVjdG9yKFtsaWdodF9wb3NfeFtOb25lXSwgbGlnaHRfcG9zX3lbTm9uZV0sIGxpZ2h0X3Bvc196W05vbmVdXSkKICAgIGJnX2NvbG9yID0gdGkuVmVjdG9yKFswLjA1LCAwLjE1LCAwLjJdKQoKICAgIGZvciBpLCBqIGluIHBpeGVsczoKICAgICAgICB1ID0gKGkgLSByZXNfeCAvIDIuMCkgLyByZXNfeSAqIDIuMAogICAgICAgIHYgPSAoaiAtIHJlc195IC8gMi4wKSAvIHJlc195ICogMi4wCiAgICAgICAgCiAgICAgICAgcm8gPSB0aS5WZWN0b3IoWzAuMCwgMS4wLCA1LjBdKQogICAgICAgIHJkID0gbm9ybWFsaXplKHRpLlZlY3RvcihbdSwgdiAtIDAuMiwgLTEuMF0pKQoKICAgICAgICBmaW5hbF9jb2xvciA9IHRpLlZlY3RvcihbMC4wLCAwLjAsIDAuMF0pCiAgICAgICAgdGhyb3VnaHB1dCA9IHRpLlZlY3RvcihbMS4wLCAxLjAsIDEuMF0pCiAgICAgICAgCiAgICAgICAgZm9yIGJvdW5jZSBpbiByYW5nZShtYXhfYm91bmNlc1tOb25lXSk6CiAgICAgICAgICAgIHQsIE4sIG9ial9jb2xvciwgbWF0X2lkID0gc2NlbmVfaW50ZXJzZWN0KHJvLCByZCkKICAgICAgICAgICAgCiAgICAgICAgICAgIGlmIHQgPiAxZTk6CiAgICAgICAgICAgICAgICBmaW5hbF9jb2xvciArPSB0aHJvdWdocHV0ICogYmdfY29sb3IKICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgcCA9IHJvICsgcmQgKiB0CiAgICAgICAgICAgIAogICAgICAgICAgICBpZiBtYXRfaWQgPT0gTUFUX01JUlJPUjoKICAgICAgICAgICAgICAgIHJvID0gcCArIE4gKiAxZS00CiAgICAgICAgICAgICAgICByZCA9IG5vcm1hbGl6ZShyZWZsZWN0KHJkLCBOKSkKICAgICAgICAgICAgICAgIHRocm91Z2hwdXQgKj0gMC44ICogb2JqX2NvbG9yIAogICAgICAgICAgICAgICAgCiAgICAgICAgICAgIGVsaWYgbWF0X2lkID09IE1BVF9HTEFTUzoKICAgICAgICAgICAgICAgIGluc2lkZSA9IHJkLmRvdChOKSA+IDAuMAogICAgICAgICAgICAgICAgbG9jYWxfTiA9IE4KICAgICAgICAgICAgICAgIGV0YSA9IEVUQV9BSVIgLyBFVEFfR0xBU1MKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgaWYgaW5zaWRlOgogICAgICAgICAgICAgICAgICAgIGxvY2FsX04gPSAtTgogICAgICAgICAgICAgICAgICAgIGV0YSA9IEVUQV9HTEFTUyAvIEVUQV9BSVIKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgVCwgaXNfVElSID0gcmVmcmFjdChyZCwgbG9jYWxfTiwgZXRhKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBpZiBpc19USVI6CiAgICAgICAgICAgICAgICAgICAgcm8gPSBwICsgbG9jYWxfTiAqIDFlLTQKICAgICAgICAgICAgICAgICAgICByZCA9IG5vcm1hbGl6ZShyZWZsZWN0KHJkLCBsb2NhbF9OKSkKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgcm8gPSBwIC0gbG9jYWxfTiAqIDFlLTQKICAgICAgICAgICAgICAgICAgICByZCA9IG5vcm1hbGl6ZShUKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICB0aHJvdWdocHV0ICo9IDAuOSAqIG9ial9jb2xvcgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgIGVsaWYgbWF0X2lkID09IE1BVF9ESUZGVVNFOgogICAgICAgICAgICAgICAgTCA9IG5vcm1hbGl6ZShsaWdodF9wb3MgLSBwKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBzaGFkb3dfcmF5X29yaWcgPSBwICsgTiAqIDFlLTQKICAgICAgICAgICAgICAgIHNoYWRvd190LCBfLCBfLCBfID0gc2NlbmVfaW50ZXJzZWN0KHNoYWRvd19yYXlfb3JpZywgTCkKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZGlzdF90b19saWdodCA9IChsaWdodF9wb3MgLSBwKS5ub3JtKCkKICAgICAgICAgICAgICAgIGluX3NoYWRvdyA9IDAuMAogICAgICAgICAgICAgICAgaWYgc2hhZG93X3QgPCBkaXN0X3RvX2xpZ2h0OgogICAgICAgICAgICAgICAgICAgIGluX3NoYWRvdyA9IDEuMAogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgYW1iaWVudCA9IDAuMiAqIG9ial9jb2xvcgogICAgICAgICAgICAgICAgZGlyZWN0X2xpZ2h0ID0gYW1iaWVudCAKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgaWYgaW5fc2hhZG93ID09IDAuMDoKICAgICAgICAgICAgICAgICAgICBkaWZmID0gdGkubWF4KDAuMCwgTi5kb3QoTCkpCiAgICAgICAgICAgICAgICAgICAgZGlmZnVzZSA9IDAuOCAqIGRpZmYgKiBvYmpfY29sb3IKICAgICAgICAgICAgICAgICAgICBkaXJlY3RfbGlnaHQgKz0gZGlmZnVzZQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBmaW5hbF9jb2xvciArPSB0aHJvdWdocHV0ICogZGlyZWN0X2xpZ2h0CiAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICBwaXhlbHNbaSwgal0gPSB0aS5tYXRoLmNsYW1wKGZpbmFsX2NvbG9yLCAwLjAsIDEuMCkKCmRlZiBtYWluKCk6CiAgICB3aW5kb3cgPSB0aS51aS5XaW5kb3coIlJheSBUcmFjaW5nIERlbW8iLCAocmVzX3gsIHJlc195KSkKICAgIGNhbnZhcyA9IHdpbmRvdy5nZXRfY2FudmFzKCkKICAgIGd1aSA9IHdpbmRvdy5nZXRfZ3VpKCkKICAgIAogICAgbGlnaHRfcG9zX3hbTm9uZV0gPSAyLjAKICAgIGxpZ2h0X3Bvc195W05vbmVdID0gNC4wCiAgICBsaWdodF9wb3NfeltOb25lXSA9IDMuMAogICAgbWF4X2JvdW5jZXNbTm9uZV0gPSAzCgogICAgd2hpbGUgd2luZG93LnJ1bm5pbmc6CiAgICAgICAgcmVuZGVyKCkKICAgICAgICBjYW52YXMuc2V0X2ltYWdlKHBpeGVscykKICAgICAgICAKICAgICAgICB3aXRoIGd1aS5zdWJfd2luZG93KCJDb250cm9scyIsIDAuNzUsIDAuMDUsIDAuMjMsIDAuMjIpOgogICAgICAgICAgICBsaWdodF9wb3NfeFtOb25lXSA9IGd1aS5zbGlkZXJfZmxvYXQoJ0xpZ2h0IFgnLCBsaWdodF9wb3NfeFtOb25lXSwgLTUuMCwgNS4wKQogICAgICAgICAgICBsaWdodF9wb3NfeVtOb25lXSA9IGd1aS5zbGlkZXJfZmxvYXQoJ0xpZ2h0IFknLCBsaWdodF9wb3NfeVtOb25lXSwgMS4wLCA4LjApCiAgICAgICAgICAgIGxpZ2h0X3Bvc196W05vbmVdID0gZ3VpLnNsaWRlcl9mbG9hdCgnTGlnaHQgWicsIGxpZ2h0X3Bvc196W05vbmVdLCAtNS4wLCA1LjApCiAgICAgICAgICAgIG1heF9ib3VuY2VzW05vbmVdID0gZ3VpLnNsaWRlcl9pbnQoJ01heCBCb3VuY2VzJywgbWF4X2JvdW5jZXNbTm9uZV0sIDEsIDUpCgogICAgICAgIHdpbmRvdy5zaG93KCkKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgICBtYWluKCk=
+import taichi as ti
+
+ti.init(arch=ti.cpu)
+
+res_x, res_y = 400, 300
+pixels = ti.Vector.field(3, dtype=ti.f32, shape=(res_x, res_y))
+
+light_pos_x = ti.field(ti.f32, shape=())
+light_pos_y = ti.field(ti.f32, shape=())
+light_pos_z = ti.field(ti.f32, shape=())
+max_bounces = ti.field(ti.i32, shape=())
+
+MAT_DIFFUSE = 0
+MAT_MIRROR = 1
+MAT_GLASS = 2
+
+ETA_AIR = 1.0
+ETA_GLASS = 1.5
+
+@ti.func
+def normalize(v):
+    return v / v.norm(1e-5)
+
+@ti.func
+def reflect(I, N):
+    return I - 2.0 * I.dot(N) * N
+
+@ti.func
+def refract(I, N, eta):
+    cos_i = -N.dot(I)
+    sin2_t = eta * eta * (1.0 - cos_i * cos_i)
+    is_TIR = sin2_t > 1.0
+    T = ti.Vector([0.0, 0.0, 0.0])
+    if not is_TIR:
+        cos_t = ti.sqrt(1.0 - sin2_t)
+        T = eta * I + (eta * cos_i - cos_t) * N
+    return T, is_TIR
+
+@ti.func
+def intersect_sphere(ro, rd, center, radius):
+    t = -1.0
+    normal = ti.Vector([0.0, 0.0, 0.0])
+    oc = ro - center
+    b = 2.0 * oc.dot(rd)
+    c = oc.dot(oc) - radius * radius
+    delta = b * b - 4.0 * c
+    if delta > 0:
+        t1 = (-b - ti.sqrt(delta)) / 2.0
+        if t1 > 0:
+            t = t1
+            p = ro + rd * t
+            normal = normalize(p - center)
+    return t, normal
+
+@ti.func
+def intersect_plane(ro, rd, plane_y):
+    t = -1.0
+    normal = ti.Vector([0.0, 1.0, 0.0])
+    if ti.abs(rd.y) > 1e-5:
+        t1 = (plane_y - ro.y) / rd.y
+        if t1 > 0:
+            t = t1
+    return t, normal
+
+@ti.func
+def scene_intersect(ro, rd):
+    min_t = 1e10
+    hit_n = ti.Vector([0.0, 0.0, 0.0])
+    hit_c = ti.Vector([0.0, 0.0, 0.0])
+    hit_mat = MAT_DIFFUSE
+
+    t, n = intersect_sphere(ro, rd, ti.Vector([-1.5, 0.0, 0.0]), 1.0)
+    if 0 < t < min_t:
+        min_t = t
+        hit_n = n
+        hit_c = ti.Vector([0.8, 0.1, 0.1])
+        hit_mat = MAT_GLASS
+
+    t, n = intersect_sphere(ro, rd, ti.Vector([1.5, 0.0, 0.0]), 1.0)
+    if 0 < t < min_t:
+        min_t = t
+        hit_n = n
+        hit_c = ti.Vector([0.9, 0.9, 0.9])
+        hit_mat = MAT_MIRROR
+
+    t, n = intersect_plane(ro, rd, -1.0)
+    if 0 < t < min_t:
+        min_t = t
+        hit_n = n
+        hit_mat = MAT_DIFFUSE
+        p = ro + rd * t
+        grid_scale = 2.0
+        ix = ti.floor(p.x * grid_scale)
+        iz = ti.floor(p.z * grid_scale)
+        if (ix + iz) % 2 == 0:
+            hit_c = ti.Vector([0.3, 0.3, 0.3])
+        else:
+            hit_c = ti.Vector([0.8, 0.8, 0.8])
+
+    return min_t, hit_n, hit_c, hit_mat
+
+@ti.kernel
+def render():
+    light_pos = ti.Vector([light_pos_x[None], light_pos_y[None], light_pos_z[None]])
+    bg_color = ti.Vector([0.05, 0.15, 0.2])
+
+    for i, j in pixels:
+        u = (i - res_x / 2.0) / res_y * 2.0
+        v = (j - res_y / 2.0) / res_y * 2.0
+        
+        ro = ti.Vector([0.0, 1.0, 5.0])
+        rd = normalize(ti.Vector([u, v - 0.2, -1.0]))
+
+        final_color = ti.Vector([0.0, 0.0, 0.0])
+        throughput = ti.Vector([1.0, 1.0, 1.0])
+        
+        for bounce in range(max_bounces[None]):
+            t, N, obj_color, mat_id = scene_intersect(ro, rd)
+            
+            if t > 1e9:
+                final_color += throughput * bg_color
+                break
+                
+            p = ro + rd * t
+            
+            if mat_id == MAT_MIRROR:
+                ro = p + N * 1e-4
+                rd = normalize(reflect(rd, N))
+                throughput *= 0.8 * obj_color 
+                
+            elif mat_id == MAT_GLASS:
+                inside = rd.dot(N) > 0.0
+                local_N = N
+                eta = ETA_AIR / ETA_GLASS
+                
+                if inside:
+                    local_N = -N
+                    eta = ETA_GLASS / ETA_AIR
+                
+                T, is_TIR = refract(rd, local_N, eta)
+                
+                if is_TIR:
+                    ro = p + local_N * 1e-4
+                    rd = normalize(reflect(rd, local_N))
+                else:
+                    ro = p - local_N * 1e-4
+                    rd = normalize(T)
+                
+                throughput *= 0.9 * obj_color
+                
+            elif mat_id == MAT_DIFFUSE:
+                L = normalize(light_pos - p)
+                
+                shadow_ray_orig = p + N * 1e-4
+                shadow_t, _, _, _ = scene_intersect(shadow_ray_orig, L)
+                
+                dist_to_light = (light_pos - p).norm()
+                in_shadow = 0.0
+                if shadow_t < dist_to_light:
+                    in_shadow = 1.0
+                    
+                ambient = 0.2 * obj_color
+                direct_light = ambient 
+                
+                if in_shadow == 0.0:
+                    diff = ti.max(0.0, N.dot(L))
+                    diffuse = 0.8 * diff * obj_color
+                    direct_light += diffuse
+                
+                final_color += throughput * direct_light
+                break
+
+        pixels[i, j] = ti.math.clamp(final_color, 0.0, 1.0)
+
+def main():
+    window = ti.ui.Window("Ray Tracing Demo", (res_x, res_y))
+    canvas = window.get_canvas()
+    gui = window.get_gui()
+    
+    light_pos_x[None] = 2.0
+    light_pos_y[None] = 4.0
+    light_pos_z[None] = 3.0
+    max_bounces[None] = 3
+
+    while window.running:
+        render()
+        canvas.set_image(pixels)
+        
+        with gui.sub_window("Controls", 0.75, 0.05, 0.23, 0.22):
+            light_pos_x[None] = gui.slider_float('Light X', light_pos_x[None], -5.0, 5.0)
+            light_pos_y[None] = gui.slider_float('Light Y', light_pos_y[None], 1.0, 8.0)
+            light_pos_z[None] = gui.slider_float('Light Z', light_pos_z[None], -5.0, 5.0)
+            max_bounces[None] = gui.slider_int('Max Bounces', max_bounces[None], 1, 5)
+
+        window.show()
+
+if __name__ == '__main__':
+    main()
