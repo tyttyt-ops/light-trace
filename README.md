@@ -6,9 +6,10 @@
 
 <!-- [![Light Trace Demo](docs/demo.gif)](docs/demo.gif) -->
 
-**1.phong模型** **2.phong模型（透明材质）** 
-
-<img width="480" height="360" alt="converted" src="https://github.com/user-attachments/assets/aff858e9-6e02-4dc9-bad5-8733cf7cd9bc" /><img width="480" height="360" alt="透明光线" src="https://github.com/user-attachments/assets/c65053f5-b5e2-4bdc-a1b1-7161fe8c9178" />
+**1.phong模型** 
+<img width="480" height="360" alt="converted" src="https://github.com/user-attachments/assets/aff858e9-6e02-4dc9-bad5-8733cf7cd9bc" />
+**2.phong模型（透明材质）** 
+img width="480" height="360" alt="透明光线" src="https://github.com/user-attachments/assets/c65053f5-b5e2-4bdc-a1b1-7161fe8c9178" />
 
 ## 功能特性
 
