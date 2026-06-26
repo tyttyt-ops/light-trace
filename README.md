@@ -1,1 +1,52 @@
-IyBMaWdodCBUcmFjZQoK5Z+65LqOIFRhaWNoaSDnmoTkuqTkupLlvI/lhYnnur/ov73ouKrmuLLmn5PlmajvvIzlrp7njrDkuobnu4/lhbjnmoQgV2hpdHRlZC1TdHlsZSDlhYnnur/ov73ouKrnrpfms5XjgIIKCiMjIOWKn+iDveeJueaApwoKLSDlhYnnur/mipXlsITkuI7lhYnnur/ov73ouKrnmoTlrozmlbTlrp7njrAKLSDnoazpmLTlvbHmo4DmtYsKLSDnkIbmg7PplZzpnaLlj43lsIQKLSDnjrvnkoPmnZDotKjkuI7mipjlsITmlYjmnpzvvIjln7rkuo7mlq/mtoXlsJTlrprlvovvvIkKLSDlhajlhoXlj43lsITlpITnkIYKLSBNU0FBIOaKl+mUr+m9vwotIOS6pOS6kuW8jyBHVUkg5o6n5Yi26Z2i5p2/CgojIyDlnLrmma/lhYPntKAKCi0g5peg6ZmQ5aSn5bmz6Z2i5Zyw5p2/77yI6buR55m95qOL55uY5qC857q555CG77yJCi0g57qi6Imy546755KD55CD77yI5oqY5bCE5p2Q6LSo77yJCi0g6ZO26Imy6ZWc6Z2i55CD77yI5Y+N5bCE5p2Q6LSo77yJCgojIyDkuqTkupLmjqfliLYKCi0gTGlnaHQgWCAvIExpZ2h0IFkgLyBMaWdodCBa77ya5Yqo5oCB6LCD5pW054K55YWJ5rqQ5L2N572uCi0gTWF4IEJvdW5jZXPvvJrorr7nva7lhYnnur/mnIDlpKflvLnlsITmrKHmlbDvvIgxLTXvvIkKCiMjIOaKgOacr+WunueOsAoKLSDkvb/nlKjov63ku6Plvqrnjq/ku6Pmm7/pgJLlvZLov5vooYzlhYnnur/ov73ouKoKLSDpgJrov4fms5Xnur/lgY/np7vop6PlhrPmta7ngrnmlbDnsr7luqbpl67popjvvIhTaGFkb3cgQWNuZe+8iQotIENQVSDlkI7nq6/ov5DooYzvvIjlhbzlrrnlpJrlubPlj7DvvIkKCiMjIOWuieijheS4jui/kOihjAoKYGBgYmFzaApwaXAgaW5zdGFsbCB0YWljaGkKcHl0aG9uIHRyYWNpbmcucHkKYGBgCgojIyDopoHmsYIKCi0gUHl0aG9uIDMuMTArCi0gVGFpY2hpIDEuNysKCiMjIOWunumqjOivtOaYjgoK5pys6aG555uu55So5LqO5YWJ57q/6L+96Liq5a6e6aqM5pWZ5a2m77yM5YyF5ZCr5Lul5LiL5qC45b+D5qaC5b+177yaCgoxLiDlhYnnur/mipXlsITkuI7lhYnnur/ov73ouKrnmoTmnKzotKjljLrliKsKMi4g6YCa6L+H5qyh57qn5bCE57q/5a6e546w56Gs6Zi05b2x5ZKM6ZWc6Z2i5Y+N5bCECjMuIEdQVSDlubbooYzorqHnrpfnmoTov63ku6PmqKHlvI8KNC4g5pav5raF5bCU5a6a5b6L5LiO5oqY5bCE5pWI5p6cCjUuIE1TQUEg5oqX6ZSv6b2/5oqA5pyv
+# Light Trace
+
+基于 Taichi 的交互式光线追踪渲染器，实现了经典的 Whitted-Style 光线追踪算法。
+
+## 功能特性
+
+- 光线投射与光线追踪的完整实现
+- 硬阴影检测
+- 理想镜面反射
+- 玻璃材质与折射效果（基于斯涅尔定律）
+- 全内反射处理
+- MSAA 抗锯齿
+- 交互式 GUI 控制面板
+
+## 场景元素
+
+- 无限大平面地板（黑白棋盘格纹理）
+- 红色玻璃球（折射材质）
+- 银色镜面球（反射材质）
+
+## 交互控制
+
+- Light X / Light Y / Light Z：动态调整点光源位置
+- Max Bounces：设置光线最大弹射次数（1-5）
+
+## 技术实现
+
+- 使用迭代循环代替递归进行光线追踪
+- 通过法线偏移解决浮点数精度问题（Shadow Acne）
+- CPU 后端运行（兼容多平台）
+
+## 安装与运行
+
+```bash
+pip install taichi
+python tracing.py
+```
+
+## 要求
+
+- Python 3.10+
+- Taichi 1.7+
+
+## 实验说明
+
+本项目用于光线追踪实验教学，包含以下核心概念：
+
+1. 光线投射与光线追踪的本质区别
+2. 通过次级射线实现硬阴影和镜面反射
+3. GPU 并行计算的迭代模式
+4. 斯涅尔定律与折射效果
+5. MSAA 抗锯齿技术
