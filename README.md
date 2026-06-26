@@ -6,7 +6,9 @@
 
 <!-- [![Light Trace Demo](docs/demo.gif)](docs/demo.gif) -->
 
-**phong模型** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;     **phong模型（透明材质）** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;- 展示交互式光线追踪效果，包含玻璃折射、镜面反射、硬阴影和抗锯齿
+**phong模型** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; **phong模型（透明材质）** &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+- 展示交互式光线追踪效果，包含玻璃折射、镜面反射、硬阴影和抗锯齿
 
 <img width="480" height="360" alt="converted" src="https://github.com/user-attachments/assets/aff858e9-6e02-4dc9-bad5-8733cf7cd9bc" />
 <img width="480" height="360" alt="透明光线" src="https://github.com/user-attachments/assets/c65053f5-b5e2-4bdc-a1b1-7161fe8c9178" />
